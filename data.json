@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 4,
   "profile": {
     "displayName": "James Hunter Carter",
     "tagline": "Filmmaker + Founder",
@@ -8,19 +8,19 @@
   },
   "links": [
     {
+      "id": "link-book-call",
+      "title": "Render AI",
+      "subtitle": "The All-in-One AI Creative Suite for Media Professionals",
+      "url": "https://renderai.com/",
+      "imageUrl": "/uploads/pwa-logo-512px-202603010813212-fd08d3.png",
+      "enabled": true
+    },
+    {
       "id": "link-portfolio",
       "title": "Editor's Reel",
       "subtitle": "Selected editorial work",
       "url": "https://vimeo.com/showcase/11963963?share=copy&fl=sm&fe=fe",
       "imageUrl": "/uploads/bfafcef6-20e7-4812-a7ae-cd235dc444c8-202603010812397-7a5f58.webp",
-      "enabled": true
-    },
-    {
-      "id": "link-book-call",
-      "title": "Render AI",
-      "subtitle": "The All-in-One AI Creative Suite for Media Professionals",
-      "url": "https://renderai.com/#",
-      "imageUrl": "/uploads/pwa-logo-512px-202603010813212-fd08d3.png",
       "enabled": true
     },
     {
@@ -47,5 +47,95 @@
       "url": "https://instagram.com/",
       "enabled": true
     }
-  ]
+  ],
+  "resume": {
+    "enabled": true,
+    "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting...",
+    "education": [
+      {
+        "id": "8ac8858a-d25b-4072-9d8b-96e160c198b3",
+        "institution": "Louisiana State University",
+        "degree": "",
+        "field": "",
+        "startYear": "2005",
+        "endYear": "2007"
+      }
+    ],
+    "employment": [
+      {
+        "id": "78b8e52a-8b93-4e6f-9203-3b3ef6a5cbb8",
+        "company": "Aspect Ratio",
+        "role": "Trailer Editor",
+        "description": "",
+        "startYear": "2007",
+        "endYear": "2009"
+      },
+      {
+        "id": "350e1813-8ff9-4108-a26a-34cf715e02ee",
+        "company": "Transit",
+        "role": "Trailer Editor",
+        "description": "",
+        "startYear": "2009",
+        "endYear": "2015"
+      },
+      {
+        "id": "de7ff85e-f495-45b0-960c-53e3d5e0722e",
+        "company": "Self-Employed",
+        "role": "Freelance Trailer Editor",
+        "description": "",
+        "startYear": "2015",
+        "endYear": "2024"
+      },
+      {
+        "id": "da5c703b-5b62-40db-be44-56fa4ff3b462",
+        "company": "Render AI",
+        "role": "Founder / CTO",
+        "description": "",
+        "startYear": "2024",
+        "endYear": "Present"
+      }
+    ],
+    "skills": [],
+    "achievements": [
+      {
+        "id": "ca1df95b-e986-40fb-8739-9c73cbb7cf9e",
+        "title": "Best Animated Trailer",
+        "issuer": "CLIO Awards",
+        "year": "2017",
+        "description": "for my LEGO Batman Teaser"
+      }
+    ]
+  },
+  "gallery": {
+    "enabled": true,
+    "items": [
+      {
+        "id": "ab36cc30-a143-4761-83ad-463a8291d21c",
+        "type": "video",
+        "src": "https://www.youtube.com/watch?v=lPnY2NjSjrg",
+        "coverUrl": "/uploads/lego-movie-posters-lead-photo-202603011228100-14538a.webp",
+        "title": "The Lego Movie Teaser",
+        "description": "",
+        "enabled": true
+      },
+      {
+        "id": "eaef4ec9-0189-4597-99c7-65de47bfa156",
+        "type": "video",
+        "src": "https://www.youtube.com/watch?v=gvBQpUdpQoA",
+        "coverUrl": "/uploads/Render-v2-Promo_v1_WIP_1.00_00_39_23.Still004-202603011225126-5e969d.jpg",
+        "title": "Render AI Promo",
+        "description": "",
+        "enabled": true
+      },
+      {
+        "id": "7058c645-4740-49b0-a856-3b255a804745",
+        "type": "video",
+        "src": "https://www.youtube.com/watch?v=FV3bqvOHRQo",
+        "coverUrl": "/uploads/aquaman2-202603011217122-1aab36.jpg",
+        "title": "Aquaman 2 Trailer",
+        "description": "",
+        "enabled": true
+      }
+    ]
+  }
 }
