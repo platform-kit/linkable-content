@@ -16,19 +16,19 @@
       "enabled": true
     },
     {
-      "id": "link-portfolio",
-      "title": "Editor's Reel",
-      "subtitle": "Selected editorial work",
-      "url": "https://vimeo.com/showcase/11963963?share=copy&fl=sm&fe=fe",
-      "imageUrl": "/uploads/bfafcef6-20e7-4812-a7ae-cd235dc444c8-202603010812397-7a5f58.webp",
-      "enabled": true
-    },
-    {
       "id": "a5f87a55-30af-4ea9-9cb7-a6bf5fc12a0d",
       "title": "Secret Weapon",
       "subtitle": "Creative Special Ops for blockbuster entertainment",
       "url": "https://secretweaponcreative.com/",
       "imageUrl": "/uploads/63592410-dd47-4830-9471-f3e56ace9470-202603010815085-86863c.webp",
+      "enabled": true
+    },
+    {
+      "id": "link-portfolio",
+      "title": "Editor's Reel",
+      "subtitle": "Selected editorial work",
+      "url": "https://vimeo.com/showcase/11963963?share=copy&fl=sm&fe=fe",
+      "imageUrl": "/uploads/bfafcef6-20e7-4812-a7ae-cd235dc444c8-202603010812397-7a5f58.webp",
       "enabled": true
     }
   ],
