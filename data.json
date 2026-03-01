@@ -50,17 +50,8 @@
   ],
   "resume": {
     "enabled": true,
-    "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting...",
-    "education": [
-      {
-        "id": "8ac8858a-d25b-4072-9d8b-96e160c198b3",
-        "institution": "Louisiana State University",
-        "degree": "",
-        "field": "",
-        "startYear": "2005",
-        "endYear": "2007"
-      }
-    ],
+    "bio": "I've spent over 20 years working in Hollywood at the intersection of storytelling, marketing, development, and technology. Recently that has culminated in the creation of a boutique agency called Secret Weapon and a software platform called Render AI.  ",
+    "education": [],
     "employment": [
       {
         "id": "78b8e52a-8b93-4e6f-9203-3b3ef6a5cbb8",
@@ -92,6 +83,14 @@
         "role": "Founder / CTO",
         "description": "",
         "startYear": "2024",
+        "endYear": "Present"
+      },
+      {
+        "id": "0a167cfd-a0de-4deb-8f4f-f80c2abc6dc9",
+        "company": "Secret Weapon",
+        "role": "Co-Founder",
+        "description": "",
+        "startYear": "2025",
         "endYear": "Present"
       }
     ],
