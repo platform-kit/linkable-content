@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 8,
+  "schemaVersion": 14,
   "profile": {
     "displayName": "James Hunter Carter",
     "tagline": "Filmmaker + Founder",
@@ -7,7 +7,11 @@
     "bannerUrl": "/uploads/banner.jpg",
     "linksLabel": "",
     "resumeLabel": "",
-    "galleryLabel": ""
+    "galleryLabel": "",
+    "blogLabel": "",
+    "searchLinks": false,
+    "searchGallery": true,
+    "searchBlog": false
   },
   "links": [
     {
@@ -16,7 +20,8 @@
       "subtitle": "Selected editorial work",
       "url": "https://vimeo.com/showcase/11963963?share=copy&fl=sm&fe=fe",
       "imageUrl": "/uploads/bfafcef6-20e7-4812-a7ae-cd235dc444c8-202603010812397-7a5f58.webp",
-      "enabled": true
+      "enabled": true,
+      "tags": []
     },
     {
       "id": "a5f87a55-30af-4ea9-9cb7-a6bf5fc12a0d",
@@ -24,7 +29,8 @@
       "subtitle": "Entertainment development & marketing",
       "url": "https://secretweaponcreative.com/",
       "imageUrl": "/uploads/63592410-dd47-4830-9471-f3e56ace9470-202603010815085-86863c.webp",
-      "enabled": true
+      "enabled": true,
+      "tags": []
     },
     {
       "id": "link-book-call",
@@ -32,20 +38,21 @@
       "subtitle": "AI Creative Suite for Media Professionals & Teams",
       "url": "https://renderai.com/",
       "imageUrl": "/uploads/pwa-logo-512px-202603010813212-fd08d3.png",
-      "enabled": true
+      "enabled": true,
+      "tags": []
     }
   ],
   "socials": [
     {
       "id": "cbb1358d-c8cc-41d2-aa05-9143b455f0c7",
-      "type": "email",
+      "icon": "Mail",
       "label": "Email",
       "url": "mailto:info@jameshuntercarter.com",
       "enabled": true
     },
     {
       "id": "social-instagram",
-      "type": "instagram",
+      "icon": "Instagram",
       "label": "Instagram",
       "url": "https://instagram.com/",
       "enabled": true
@@ -118,6 +125,7 @@
         "coverUrl": "/uploads/Render-v2-Promo_v1_WIP_1.00_00_39_23.Still004-202603011225126-5e969d.jpg",
         "title": "Render AI Promo",
         "description": "",
+        "tags": [],
         "enabled": true
       },
       {
@@ -127,6 +135,7 @@
         "coverUrl": "/uploads/aquaman2-202603011217122-1aab36.jpg",
         "title": "Aquaman 2 Trailer",
         "description": "",
+        "tags": [],
         "enabled": true
       },
       {
@@ -136,6 +145,9 @@
         "coverUrl": "/uploads/f1d1b43f-aa2f-4819-8758-0e87daae24e4-cover.jpg",
         "title": "The LEGO Batman Movie Teaser",
         "description": "",
+        "tags": [
+          "Teaser"
+        ],
         "enabled": true
       },
       {
@@ -145,6 +157,7 @@
         "coverUrl": "/uploads/lego-movie-posters-lead-photo-202603011228100-14538a.webp",
         "title": "The LEGO Movie Teaser",
         "description": "",
+        "tags": [],
         "enabled": true
       },
       {
@@ -154,6 +167,9 @@
         "coverUrl": "/uploads/a3fd511d-2fa7-4cb0-91dd-3c91fb1e6b4b-cover.jpg",
         "title": "Star Trek Into Darkness Trailer",
         "description": "",
+        "tags": [
+          "Trailer"
+        ],
         "enabled": true
       },
       {
@@ -163,9 +179,15 @@
         "coverUrl": "/uploads/deffe04d-70d5-42f1-b1a0-0616448e2c15-cover.jpg",
         "title": "Sherie - ETA",
         "description": "",
+        "tags": [
+          "Music Video"
+        ],
         "enabled": true
       }
     ]
+  },
+  "blog": {
+    "enabled": false
   },
   "theme": {
     "preset": "light",
@@ -182,5 +204,9 @@
     "colorBorder2": "rgba(11, 18, 32, 0.10)",
     "radiusXl": "1.6rem",
     "radiusLg": "1.2rem"
+  },
+  "scripts": {
+    "headScript": "",
+    "bodyEndScript": ""
   }
 }
