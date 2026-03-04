@@ -7,7 +7,7 @@
     "bannerUrl": "/uploads/banner.jpg",
     "linksLabel": "",
     "resumeLabel": "",
-    "galleryLabel": "",
+    "galleryLabel": "My Work",
     "blogLabel": "",
     "searchLinks": false,
     "searchGallery": true,
@@ -18,7 +18,7 @@
       "id": "link-portfolio",
       "title": "Editor's Reel",
       "subtitle": "Selected editorial work",
-      "url": "https://vimeo.com/showcase/11963963?share=copy&fl=sm&fe=fe",
+      "url": "#gallery",
       "imageUrl": "/uploads/bfafcef6-20e7-4812-a7ae-cd235dc444c8-202603010812397-7a5f58.webp",
       "enabled": true,
       "tags": []
@@ -217,6 +217,66 @@
         "description": "",
         "tags": [
           "Trailer"
+        ],
+        "enabled": true
+      },
+      {
+        "id": "400d0b92-ae2c-46a5-8536-60e5113a365f",
+        "type": "video",
+        "src": "https://vimeo.com/showcase/11963963?video=641369938",
+        "coverUrl": "/uploads/400d0b92-ae2c-46a5-8536-60e5113a365f-cover.jpg",
+        "title": "TMNT International Trailer",
+        "description": "",
+        "tags": [
+          "Trailer"
+        ],
+        "enabled": true
+      },
+      {
+        "id": "edc0444e-f206-4f26-b516-5d1871a02654",
+        "type": "video",
+        "src": "https://vimeo.com/showcase/11963963?video=641765180",
+        "coverUrl": "/uploads/edc0444e-f206-4f26-b516-5d1871a02654-cover.jpg",
+        "title": "The Adventures of TinTin",
+        "description": "",
+        "tags": [
+          "TV Spot"
+        ],
+        "enabled": true
+      },
+      {
+        "id": "9bb2547d-5f83-41bb-b441-c936bc3d2c2f",
+        "type": "video",
+        "src": "https://vimeo.com/showcase/11963963?video=641765141",
+        "coverUrl": "/uploads/9bb2547d-5f83-41bb-b441-c936bc3d2c2f-cover.jpg",
+        "title": "Mission Impossible TV Spot",
+        "description": "",
+        "tags": [
+          "TV Spot"
+        ],
+        "enabled": true
+      },
+      {
+        "id": "aa47a43d-d3d7-4778-b5db-8011f97a4ebd",
+        "type": "video",
+        "src": "https://vimeo.com/showcase/11963963?video=641764978",
+        "coverUrl": "/uploads/aa47a43d-d3d7-4778-b5db-8011f97a4ebd-cover.jpg",
+        "title": "A Nightmare on Elm Street",
+        "description": "",
+        "tags": [
+          "TV Spot"
+        ],
+        "enabled": true
+      },
+      {
+        "id": "15773aee-4357-434e-beab-333cb0abaaef",
+        "type": "video",
+        "src": "https://vimeo.com/showcase/11963963?video=641762941",
+        "coverUrl": "/uploads/15773aee-4357-434e-beab-333cb0abaaef-cover.jpg",
+        "title": "Transformers: Revenge of the Fallen",
+        "description": "",
+        "tags": [
+          "TV Spot"
         ],
         "enabled": true
       },
