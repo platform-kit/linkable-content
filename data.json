@@ -146,11 +146,35 @@
         "enabled": true
       },
       {
+        "id": "076a7361-9b20-470b-85d5-5a9c0586ee29",
+        "type": "video",
+        "src": "https://www.youtube.com/watch?v=-GYbDzoEwfs",
+        "coverUrl": "/uploads/076a7361-9b20-470b-85d5-5a9c0586ee29-cover.jpg",
+        "title": "Fear Street 1994",
+        "description": "Main Titles\nFinal designed by Elastic",
+        "tags": [
+          "Feature Editorial"
+        ],
+        "enabled": true
+      },
+      {
         "id": "deffe04d-70d5-42f1-b1a0-0616448e2c15",
         "type": "video",
         "src": "https://www.youtube.com/watch?v=2e4rI7b6c3U",
         "coverUrl": "/uploads/deffe04d-70d5-42f1-b1a0-0616448e2c15-cover.jpg",
         "title": "Sherie - ETA",
+        "description": "Music Video",
+        "tags": [
+          "Music Video"
+        ],
+        "enabled": true
+      },
+      {
+        "id": "6745e1bb-02fc-4e87-ae79-bffb82df3d21",
+        "type": "video",
+        "src": "https://vimeo.com/showcase/11963963?video=762819100",
+        "coverUrl": "/uploads/6745e1bb-02fc-4e87-ae79-bffb82df3d21-cover.jpg",
+        "title": "Black Adam",
         "description": "Music Video",
         "tags": [
           "Music Video"
@@ -176,6 +200,18 @@
         "description": " Teaser",
         "tags": [
           "Teaser"
+        ],
+        "enabled": true
+      },
+      {
+        "id": "31b0910b-8f3c-4157-9b53-d3fdb0eee484",
+        "type": "video",
+        "src": "https://vimeo.com/showcase/11963963?video=642175318",
+        "coverUrl": "/uploads/31b0910b-8f3c-4157-9b53-d3fdb0eee484-cover.jpg",
+        "title": "Detective Pikachu",
+        "description": "Featurette",
+        "tags": [
+          "Featurette"
         ],
         "enabled": true
       },
