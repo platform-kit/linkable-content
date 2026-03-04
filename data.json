@@ -115,18 +115,18 @@
         "description": "for my LEGO Batman Teaser"
       },
       {
-        "id": "b54ce01a-268d-4004-b4d2-9e23385a73bd",
-        "title": "Super Bowl TV Spot",
-        "issuer": "NFL / Universal",
-        "year": "2010",
-        "description": "My TV spot for Universal's Wolfman film aired during Super Bowl XLIV"
-      },
-      {
         "id": "339de689-d8e5-49fe-ba49-c85539b8878a",
         "title": "Super Bowl TV Spot",
         "issuer": "NFL / Relativity",
         "year": "2012",
         "description": "My TV spot for Relativity Media's Act of Valor film aired during Super Bowl XLVI"
+      },
+      {
+        "id": "b54ce01a-268d-4004-b4d2-9e23385a73bd",
+        "title": "Super Bowl TV Spot",
+        "issuer": "NFL / Universal",
+        "year": "2010",
+        "description": "My TV spot for Universal's Wolfman film aired during Super Bowl XLIV"
       }
     ]
   },
