@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 23,
+  "schemaVersion": 25,
   "profile": {
     "displayName": "James Hunter Carter",
     "tagline": "Filmmaker + Founder",
@@ -11,18 +11,18 @@
     "resumeLabel": "Resume",
     "galleryLabel": "Reel",
     "blogLabel": "",
-    "newsletterLabel": "Articles",
+    "newsletterLabel": "Newsletter",
     "linksIcon": "Link",
     "resumeIcon": "File",
     "galleryIcon": "Film",
     "blogIcon": "BookOpen",
-    "newsletterIcon": "BookOpen",
+    "newsletterIcon": "Mail",
     "defaultTab": "links",
     "searchLinks": false,
     "searchGallery": true,
     "searchBlog": false,
     "searchNewsletter": true,
-    "newsletterEnabled": false
+    "newsletterEnabled": true
   },
   "links": [
     {
@@ -456,6 +456,7 @@
     }
   ],
   "theme": {
+    "layout": "default",
     "preset": "light",
     "colorBrand": "#3b82f6",
     "colorBrandStrong": "#2563eb",
@@ -472,7 +473,8 @@
     "cardBorder": "rgba(255, 255, 255, 0.62)",
     "cardText": "#0b1220",
     "radiusXl": "1.6rem",
-    "radiusLg": "1.2rem"
+    "radiusLg": "1.2rem",
+    "layoutVars": {}
   },
   "scripts": {
     "headScript": "",
