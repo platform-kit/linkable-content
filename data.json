@@ -457,7 +457,7 @@
       "enabled": true,
       "label": "",
       "icon": "BookOpen",
-      "searchEnabled": false,
+      "searchEnabled": true,
       "items": []
     },
     "embeds": {
@@ -515,8 +515,9 @@
     "radiusLg": "1.25rem",
     "layoutVars": {
       "--bento-card-padding": "30px",
-      "--bento-gap": "10px",
-      "--bento-grid-width": "min(100%, 1400px)"
+      "--bento-gap": "15px",
+      "--bento-grid-width": "min(100%, 1300px)",
+      "--bento-hover-scale": "1.05"
     },
     "layoutData": {
       "grid": {
@@ -696,7 +697,7 @@
             "refId": "174a56bd-5980-4a6d-8915-a72a1d76bee4",
             "col": 1,
             "row": 10,
-            "colSpan": 1,
+            "colSpan": 2,
             "rowSpan": 2,
             "thumbnailUrl": "",
             "headerText": "",
@@ -713,18 +714,6 @@
             "thumbnailUrl": "https://images.unsplash.com/photo-1646038572815-43fe759e459b?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "headerText": "👋  Say Hello!",
             "buttonText": "Schedule A Call"
-          },
-          {
-            "id": "a4a878be-946e-4803-ab7f-727baab36475",
-            "type": "link",
-            "refId": "link-portfolio",
-            "col": 2,
-            "row": 10,
-            "colSpan": 1,
-            "rowSpan": 2,
-            "thumbnailUrl": "",
-            "headerText": "",
-            "buttonText": ""
           }
         ]
       },
@@ -755,8 +744,9 @@
       "radiusLg": "1.25rem",
       "layoutVars": {
         "--bento-card-padding": "30px",
-        "--bento-gap": "10px",
-        "--bento-grid-width": "min(100%, 1400px)"
+        "--bento-gap": "0px",
+        "--bento-grid-width": "min(100%, 1600px)",
+        "--bento-hover-scale": "1.05"
       },
       "layoutData": {
         "grid": {
@@ -936,7 +926,7 @@
               "refId": "174a56bd-5980-4a6d-8915-a72a1d76bee4",
               "col": 1,
               "row": 10,
-              "colSpan": 1,
+              "colSpan": 2,
               "rowSpan": 2,
               "thumbnailUrl": "",
               "headerText": "",
@@ -953,22 +943,12 @@
               "thumbnailUrl": "https://images.unsplash.com/photo-1646038572815-43fe759e459b?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               "headerText": "👋  Say Hello!",
               "buttonText": "Schedule A Call"
-            },
-            {
-              "id": "a4a878be-946e-4803-ab7f-727baab36475",
-              "type": "link",
-              "refId": "link-portfolio",
-              "col": 2,
-              "row": 10,
-              "colSpan": 1,
-              "rowSpan": 2,
-              "thumbnailUrl": "",
-              "headerText": "",
-              "buttonText": ""
             }
           ]
         },
-        "defaultTab": "gallery"
+        "defaultTab": "links",
+        "avatarUrl": "/uploads/avatar.jpg",
+        "bannerUrl": "/uploads/banner.jpg"
       }
     },
     "minimal": {
@@ -1014,8 +994,9 @@
       "radiusLg": "1.25rem",
       "layoutVars": {
         "--bento-card-padding": "30px",
-        "--bento-gap": "10px",
-        "--bento-grid-width": "min(100%, 1400px)"
+        "--bento-gap": "15px",
+        "--bento-grid-width": "min(100%, 1300px)",
+        "--bento-hover-scale": "1.05"
       },
       "layoutData": {
         "grid": {
@@ -1195,7 +1176,7 @@
               "refId": "174a56bd-5980-4a6d-8915-a72a1d76bee4",
               "col": 1,
               "row": 10,
-              "colSpan": 1,
+              "colSpan": 2,
               "rowSpan": 2,
               "thumbnailUrl": "",
               "headerText": "",
@@ -1212,18 +1193,6 @@
               "thumbnailUrl": "https://images.unsplash.com/photo-1646038572815-43fe759e459b?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
               "headerText": "👋  Say Hello!",
               "buttonText": "Schedule A Call"
-            },
-            {
-              "id": "a4a878be-946e-4803-ab7f-727baab36475",
-              "type": "link",
-              "refId": "link-portfolio",
-              "col": 2,
-              "row": 10,
-              "colSpan": 1,
-              "rowSpan": 2,
-              "thumbnailUrl": "",
-              "headerText": "",
-              "buttonText": ""
             }
           ]
         },
