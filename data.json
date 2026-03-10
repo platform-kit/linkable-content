@@ -99,6 +99,53 @@
         }
       ]
     },
+    "embeds": {
+      "enabled": false,
+      "label": "",
+      "icon": "",
+      "searchEnabled": false,
+      "items": [
+        {
+          "id": "e5b2de23-6ac9-4cbf-af20-1918ca3aa711",
+          "label": "Astrocast",
+          "html": "https://astrocast.ai/embed?theme=dark&preset=sun",
+          "icon": "Moon",
+          "enabled": true,
+          "publishDate": "",
+          "expirationDate": "",
+          "fontSize": 14,
+          "fontFamily": "",
+          "fontWeight": "",
+          "letterSpacing": ""
+        },
+        {
+          "id": "db5d0032-8b4d-47d4-9ca3-602bce1c64a4",
+          "label": "Golden Wind",
+          "html": "https://open.spotify.com/embed/album/4tWbQPv7cHJIsl4myPlNoq?utm_source=generator",
+          "icon": "Code",
+          "enabled": true,
+          "publishDate": "",
+          "expirationDate": "",
+          "fontSize": 44,
+          "fontFamily": "Open Sans",
+          "fontWeight": "300",
+          "letterSpacing": ""
+        },
+        {
+          "id": "f236b065-e908-476f-8d55-dccc72f28af7",
+          "label": "Book A Call",
+          "html": "https://cal.com/jameshuntercarter/30-minute-video-call",
+          "icon": "CalendarFold",
+          "enabled": true,
+          "publishDate": "",
+          "expirationDate": "",
+          "fontSize": 44,
+          "fontFamily": "Open Sans",
+          "fontWeight": "300",
+          "letterSpacing": ""
+        }
+      ]
+    },
     "gallery": {
       "enabled": false,
       "label": "My Work",
@@ -481,53 +528,6 @@
       "icon": "BookOpen",
       "searchEnabled": true,
       "items": []
-    },
-    "embeds": {
-      "enabled": false,
-      "label": "",
-      "icon": "",
-      "searchEnabled": false,
-      "items": [
-        {
-          "id": "e5b2de23-6ac9-4cbf-af20-1918ca3aa711",
-          "label": "Astrocast",
-          "html": "https://astrocast.ai/embed?theme=dark&preset=sun",
-          "icon": "Moon",
-          "enabled": true,
-          "publishDate": "",
-          "expirationDate": "",
-          "fontSize": 14,
-          "fontFamily": "",
-          "fontWeight": "",
-          "letterSpacing": ""
-        },
-        {
-          "id": "db5d0032-8b4d-47d4-9ca3-602bce1c64a4",
-          "label": "Golden Wind",
-          "html": "https://open.spotify.com/embed/album/4tWbQPv7cHJIsl4myPlNoq?utm_source=generator",
-          "icon": "Code",
-          "enabled": true,
-          "publishDate": "",
-          "expirationDate": "",
-          "fontSize": 44,
-          "fontFamily": "Open Sans",
-          "fontWeight": "300",
-          "letterSpacing": ""
-        },
-        {
-          "id": "f236b065-e908-476f-8d55-dccc72f28af7",
-          "label": "Book A Call",
-          "html": "https://cal.com/jameshuntercarter/30-minute-video-call",
-          "icon": "CalendarFold",
-          "enabled": true,
-          "publishDate": "",
-          "expirationDate": "",
-          "fontSize": 44,
-          "fontFamily": "Open Sans",
-          "fontWeight": "300",
-          "letterSpacing": ""
-        }
-      ]
     },
     "widgets": {
       "enabled": true,
@@ -1893,7 +1893,7 @@
               "id": "360b3f82-72cd-409d-af79-b775e7a631ee",
               "type": "embed",
               "refId": "e5b2de23-6ac9-4cbf-af20-1918ca3aa711",
-              "col": 3,
+              "col": 2,
               "row": 18,
               "colSpan": 2,
               "rowSpan": 2,
@@ -1941,7 +1941,7 @@
               "id": "2f5e8b6b-cb42-4bec-8509-92cf0d7a3824",
               "type": "link",
               "refId": "b29b023c-b63f-434e-b725-cbf64ea2dafd",
-              "col": 2,
+              "col": 4,
               "row": 18,
               "colSpan": 1,
               "rowSpan": 2,
