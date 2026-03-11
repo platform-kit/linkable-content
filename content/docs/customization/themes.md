@@ -1,4 +1,5 @@
 ---
+
 title: Themes
 published: true
 ---
@@ -52,29 +53,42 @@ Themes expose a set of CSS custom properties for colour, typography, and layout.
 
 ### Core colour variables
 
-| Variable | Description |
-|----------|-------------|
-| `--color-brand` | Primary brand colour |
-| `--color-accent` | Accent / highlight colour |
-| `--color-ink` | Main text colour |
-| `--color-ink-soft` | Muted text colour |
-| `--bg` | Page background |
+| Variable               | Description               |
+| ---------------------- | ------------------------- |
+| `--color-brand`        | Primary brand colour      |
+| `--color-accent`       | Accent / highlight colour |
+| `--color-ink`          | Main text colour          |
+| `--color-ink-soft`     | Muted text colour         |
+| `--bg`                 | Page background           |
 | `--glass` / `--glass2` | Semi-transparent surfaces |
-| `--card-bg` | Card background |
-| `--card-border` | Card border colour |
-| `--color-border` | General border colour |
+| `--card-bg`            | Card background           |
+| `--card-border`        | Card border colour        |
+| `--color-border`       | General border colour     |
 
 ### Bento-specific layout variables
 
-| Variable | Default | Description |
-|----------|---------|-------------|
-| `--bento-grid-width` | `960px` | Max grid width |
-| `--bento-gap` | `16px` | Gap between grid cells |
-| `--bento-card-radius` | `20px` | Card border radius |
-| `--bento-hover-scale` | `1.02` | Card hover zoom |
+| Variable              | Default | Description            |
+| --------------------- | ------- | ---------------------- |
+| `--bento-grid-width`  | `960px` | Max grid width         |
+| `--bento-gap`         | `16px`  | Gap between grid cells |
+| `--bento-card-radius` | `20px`  | Card border radius     |
+| `--bento-hover-scale` | `1.02`  | Card hover zoom        |
 
 ## Theme presets
 
 Define light, dark, or custom presets by mapping preset names to CSS variable values. Users pick a preset in the CMS, or the theme can auto-switch based on `prefers-color-scheme`.
 
 > **Tip:** Use CSS custom properties for all colours and spacing to make your theme easy to customise without code changes.
+
+---
+
+## Customizing Theme & Override Paths
+
+Themes are discovered in the directory specified by `themeDir` in your `platformkit.config.ts` (default: `src/themes`). User-provided themes staged in `src/themes/user/` are automatically prioritized above core themes. The resolution order is:
+
+1. `src/themes/user/<layout>/<Name>.vue` (user themes)
+2. `src/themes/<layout>/<Name>.vue` (core themes)
+
+You can change `themeDir` to point to any directory you want. All theme discovery will use this path.
+
+> **Note:** User themes are typically staged by the CLI into `/src/themes/user/` and are `.gitignore`d to avoid contaminating the core repo.
