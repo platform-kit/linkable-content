@@ -1,4 +1,5 @@
 ---
+
 title: Configuration
 published: true
 ---
@@ -9,11 +10,11 @@ PlatformKit uses a **three-level configuration** system. Each level is a `platfo
 
 ## Config levels
 
-| Level | File | Priority |
-|-------|------|----------|
-| **System** | `platformkit.config.ts` (root) | Lowest |
-| **Theme** | `src/themes/<name>/platformkit.config.ts` | Medium |
-| **User** | `src/overrides/platformkit.config.ts` | **Highest** |
+| Level      | File                                      | Priority    |
+| ---------- | ----------------------------------------- | ----------- |
+| **System** | `platformkit.config.ts` (root)            | Lowest      |
+| **Theme**  | `src/themes/<name>/platformkit.config.ts` | Medium      |
+| **User**   | `src/overrides/platformkit.config.ts`     | **Highest** |
 
 You almost never need to touch the system or theme configs. Put your overrides in `src/overrides/platformkit.config.ts`.
 
@@ -47,17 +48,17 @@ The name of the active theme directory under `src/themes/`.
 
 A map of collection key → config. Each collection specifies:
 
-| Option | Type | Description |
-|--------|------|-------------|
-| `directory` | `string` | Path to the content source files |
-| `format` | `"markdown" \| "yaml" \| "json"` | File format |
-| `sortField` | `string` | Field used to sort items |
-| `sortOrder` | `"asc" \| "desc"` | Sort direction |
-| `recursive` | `boolean` | Enable nested subdirectory scanning (with `_meta.json` ordering) |
-| `slugField` | `string` | Which field to derive the URL slug from |
-| `fieldDefaults` | `Record` | Default values for missing fields |
-| `fieldRenames` | `Record` | Declarative field rename map |
-| `indexFilter` | `function` | Filter items out of the public index |
+| Option          | Type          | Description                                                      |
+| --------------- | ------------- | ---------------------------------------------------------------- |
+| `directory`     | `string`      | Path to the content source files                                 |
+| `format`        | `"markdown" \ | "yaml" \                                                         | "json"` | File format |
+| `sortField`     | `string`      | Field used to sort items                                         |
+| `sortOrder`     | `"asc" \      | "desc"`                                                          | Sort direction |
+| `recursive`     | `boolean`     | Enable nested subdirectory scanning (with `_meta.json` ordering) |
+| `slugField`     | `string`      | Which field to derive the URL slug from                          |
+| `fieldDefaults` | `Record`      | Default values for missing fields                                |
+| `fieldRenames`  | `Record`      | Declarative field rename map                                     |
+| `indexFilter`   | `function`    | Filter items out of the public index                             |
 
 ### `contentSchemas`
 
